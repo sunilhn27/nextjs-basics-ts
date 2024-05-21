@@ -2,9 +2,9 @@ import React, { ReactNode } from "react";
 
 interface DashboardProps {
   children: ReactNode;
-  sales?: ReactNode;
-  revenue?: ReactNode;
-  profit?: ReactNode;
+  sales: ReactNode;
+  revenue: ReactNode;
+  profit: ReactNode;
 }
 
 function DashBoardPage({
