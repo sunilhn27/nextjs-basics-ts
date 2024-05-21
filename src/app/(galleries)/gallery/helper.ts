@@ -7,12 +7,12 @@ import Img5 from "@/asserts/Person2.png"
 import Img6 from "@/asserts/Person3.png"
 
 interface Photos {
-    id: number;
+    id: any;
     name: string;
     url: StaticImageData;
     author: string;
 }
-export const Photo: Photos[] = [
+export const photo: Photos[] = [
     { id: 1, name: "Person 1", url: Img1, author: "Sunil" },
     { id: 2, name: "Person 2", url: Img2, author: "Raju" },
     { id: 3, name: "Person 3", url: Img3, author: "Kiran" },
