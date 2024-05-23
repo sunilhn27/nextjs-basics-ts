@@ -40,8 +40,8 @@ async function UserPage({ searchParams }: Props) {
     <div className="flex justify-center items-center">
       <div className="flex flex-col">
         {navLinks.map((link) => (
-          <div className="">
-            <Link href={link.href} key={link.name}>
+          <div className="" key={link.name}>
+            <Link  href={link.href} key={link.name}>
               {link.name}
             </Link>
           </div>
