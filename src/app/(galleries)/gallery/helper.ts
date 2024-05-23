@@ -6,7 +6,7 @@ import Img4 from "@/asserts/Person1.png"
 import Img5 from "@/asserts/Person2.png"
 import Img6 from "@/asserts/Person3.png"
 
-interface Photos {
+export interface Photos {
     id: any;
     name: string;
     url: StaticImageData;
