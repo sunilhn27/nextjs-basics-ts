@@ -1,10 +1,7 @@
-import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
+import { clerkMiddleware } from "@clerk/nextjs/server";
+import {authMi}
 
 
-const isProtectedRoute = createRouteMatcher([
-    '/dashboard(.*)',
-    '/forum(.*)',
-]);
 export default clerkMiddleware(
 
 );
