@@ -28,7 +28,10 @@ function ZustandPage() {
             <h1 className="text-[2rem]">Inside Cart</h1>
 
             {cart.map((item) => (
-              <div className="flex justify-center items-center space-x-2 py-1 " key={item.id}>
+              <div
+                className="flex justify-center items-center space-x-2 py-1 "
+                key={item.id}
+              >
                 <h1 className="text-[1.2rem]">{item.name}</h1>
                 <button
                   className="border-2 py-1 px-2 rounded-lg"
