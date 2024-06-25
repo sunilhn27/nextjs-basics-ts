@@ -28,9 +28,7 @@ function DarkMode() {
 
   return (
     <section className="my-12">
-      <div className="flex  justify-end mx-6">
-        <ModeToggle />
-      </div>
+   
 
       <div className="flex justify-center items-center">
         <Button>Click Me</Button>
@@ -81,7 +79,7 @@ function DarkMode() {
         </div>
 
         <div className="flex justify-center items-center">
-        <DatePickerForm/>
+          <DatePickerForm />
         </div>
       </div>
     </section>
